@@ -54,6 +54,30 @@ The project is organized into modular `.cpp` files, each addressing a specific p
 - **Technical Skills:** Comparison Logic, Array Traversal, and Optimization.
 ## 🛠️ How to Compile and Run
 
+### 4. Array Minimum Value Finder
+- **File:** `Array-MinNumber.cpp`
+- **Goal:** Identify the smallest value in a randomly filled array.
+- **Logic:** Compares each element with a stored `min` variable, updating it whenever a smaller value is found.
+- **Advanced Features:** Uses `const` pointers to ensure data safety and Doxygen style documentation.
+- **Technical Skills:** Conditional Logic, Iteration, and Basic Optimization.
+
+  ### 5. Array Elements Summation
+- **File:** `Array-SumElements.cpp`
+- **Goal:** Calculate the total sum of all randomly generated integers in an array.
+- **Logic:** Initializes a `sum` accumulator to zero and iterates through the array, adding each element's value to the total.
+- **Advanced Features:** - Constant parameters (`const int arr[]`) for memory safety.
+    - Input validation to ensure the length doesn't exceed `MAX_SIZE`.
+- **Technical Skills:** Arithmetic Operations, Accumulation Logic, and Loop Traversal.
+
+  ### 7. Basic Array Copy
+- **File:** `Array-CopyBasic.cpp`
+- **Goal:** Copy all elements from a source array into a destination array.
+- **Logic:** Iterates through the source array and assigns each value to the corresponding index in the destination array.
+- **Advanced Features:** - **Memory Protection:** Uses `const int arrSource[]` to prevent accidental modification of the original data.
+    - **Scalability:** Designed to handle up to `MAX_SIZE` elements efficiently.
+- **Technical Skills:** Array Assignment, Memory Safety, and Loop-based Data Transfer.
+
+  
 ---
 1. **Clone the repo:**
    ```bash
