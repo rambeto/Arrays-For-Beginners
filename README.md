@@ -1,27 +1,29 @@
-# Arrays-For-Beginners
-# C++ Array Exercises
+# C++ Array Mastering & Logic Building
 
-A collection of beginner-friendly C++ exercises focusing on **arrays, pointers, and basic array algorithms**.  
-This repository is designed for learners to practice array manipulation, random number generation, counting, finding maximums, and other common operations in C++.  
-More exercises will be added over time.
+This repository contains a curated collection of C++ solutions focused on **Array Manipulation**, **Algorithm Logic**, and **Problem Solving**. These exercises are designed to demonstrate clean code practices, memory efficiency (within static arrays), and fundamental data structure operations.
 
----
+## 🚀 Key Features
+- **Clean Code:** Adheres to readable naming conventions and structured logic.
+- **Self-Documented:** Each file contains detailed comments explaining the purpose and parameters.
+- **Diverse Logic:** Covers everything from basic copying to filtering and randomizing.
 
-## Repository Structure
+## 📁 Problems & Solutions
 
-> New exercises will be added as separate `.cpp` files following the same numbering pattern for easy organization.
+| File Name | Description | Key Concept |
+| :--- | :--- | :--- |
+| `ArrayCopy-Basic.cpp` | Copying elements from a source array to a destination array. | Array Traversal |
+| `ArrayFilter-Primes.cpp` | Extracting only prime numbers from an array into a separate one. | Number Theory & Filtering |
+| `Arrays-ElementWiseSum.cpp` | Summing two different arrays and storing the result in a third array. | Parallel Iteration |
+| `Array-RandomShuffle.cpp` | Randomizing the order of elements within an array. | Randomization Algorithms |
+| `Array-ReverseCopy.cpp` | Copying elements into a new array in reverse order. | Reverse Indexing |
+| `Array-KeyGenerator.cpp` | Filling an array with randomly generated security keys/tokens. | String & Char Manipulation |
+| `Array-FindIndex.cpp` | Searching for a specific number and returning its index/position. | Linear Search |
+| `Array-SearchElement.cpp` | A boolean check to verify if a number exists within an array. | Predicate Logic |
+| `Array-DynamicAppend.cpp` | Adding elements to an array based on user input (Semi-Dynamic). | Dynamic Growth Logic |
+| `Array-CopyByAddition.cpp` | Copying elements by reusing an "AddElement" function. | Code Reusability |
 
----
+## 🛠️ Installation & Usage
 
-## How to Run
-
-1. Open a terminal in the repository folder.  
-2. Compile the desired file using g++:
-
-```bash
-g++ 01_CountNumberOccurrences.cpp -o program
-./program
-g++ 02_FillArrayWithRandomNumbers.cpp -o program
-./program
-g++ 03_MaxNumberInArray.cpp -o program
-./program
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YourUsername/Array-Mastering-CPP.git](https://github.com/YourUsername/Array-Mastering-CPP.git)
