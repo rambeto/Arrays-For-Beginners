@@ -11,6 +11,11 @@ The project is organized into modular `.cpp` files, each addressing a specific p
 | # | Professional File Name | Description | Key Concept |
 |:---|:---|:---|:---|
 | 01 | `Array-ElementFrequency.cpp` | Count how many times each element appears in an array. | Frequency Counting |
+### 🔍 Featured Solution: Array Element Frequency
+**File:** `Array-ElementFrequency.cpp`
+- **Goal:** Find how many times a specific number exists in an array.
+- **Logic:** Uses a frequency counter and a loop to traverse the array.
+- **Key Functions:** `ReadArray()`, `PrintArray()`, `TimesRepeated()`.
 | 02 | `Array-RandomFill.cpp` | Automatically fill an array with random numbers. | Randomization |
 | 03 | `Array-MaxNumber.cpp` | Find the maximum value within an array. | Search Algorithms |
 | 04 | `Array-MinNumber.cpp` | Find the minimum value within an array. | Search Algorithms |
