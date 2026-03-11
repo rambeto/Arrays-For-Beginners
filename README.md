@@ -1,6 +1,6 @@
 # C++ Mastery: 19 Essential Array Algorithms 🚀
 
-This repository is a comprehensive collection of C++ programs focusing on **Array Data Structures**, **Algorithm Logic**, and **Problem-Solving**. It covers a wide range of operations from basic manipulation to advanced logic like frequency counting and dynamic-like element addition.
+This repository is a comprehensive collection of C++ programs focusing on **Array Data Structures**, **Algorithm Logic**, and **Problem-Solving**. It covers a wide range of operations from basic manipulation to advanced logic like frequency counting and dynamic-like element addition. 
 
 ## 📁 Project Structure
 
@@ -17,6 +17,11 @@ The project is organized into modular `.cpp` files, each addressing a specific p
 - **Logic:** Uses a frequency counter and a loop to traverse the array.
 - **Key Functions:** `ReadArray()`, `PrintArray()`, `TimesRepeated()`.
 | 02 | `Array-RandomFill.cpp` | Automatically fill an array with random numbers. | Randomization |
+### 🎲 Featured Solution: Random Array Generator
+**File:** `Array-RandomFill.cpp`
+- **Goal:** Fill an array with random values within a specific range.
+- **Advanced Features:** Includes size validation and professional Doxygen documentation.
+- **Technical Skills:** `srand()`, `time()`, `static_cast`, and Constant Management.
 | 03 | `Array-MaxNumber.cpp` | Find the maximum value within an array. | Search Algorithms |
 | 04 | `Array-MinNumber.cpp` | Find the minimum value within an array. | Search Algorithms |
 | 05 | `Array-SumElements.cpp` | Calculate the total sum of all elements in an array. | Accumulation |
