@@ -48,6 +48,12 @@ The project is organized into modular `.cpp` files, each addressing a specific p
 
 ---
 
+### 3. Array Maximum Value Finder
+- **File:** `Array-MaxNumber.cpp`
+- **Goal:** Identify the largest value within a randomly generated array.
+- **Logic:** Initializes a `max` variable with the first element and iterates through the array to compare and update.
+- **Advanced Features:** Includes Doxygen style documentation and uses `const` parameters for memory safety.
+- **Technical Skills:** Comparison Logic, Array Traversal, and Optimization.
 ## 🛠️ How to Compile and Run
 
 1. **Clone the repo:**
