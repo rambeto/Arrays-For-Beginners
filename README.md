@@ -61,7 +61,7 @@ The project is organized into modular `.cpp` files, each addressing a specific p
 - **Advanced Features:** Uses `const` pointers to ensure data safety and Doxygen style documentation.
 - **Technical Skills:** Conditional Logic, Iteration, and Basic Optimization.
 
-  ### 5. Array Elements Summation
+### 5. Array Elements Summation
 - **File:** `Array-SumElements.cpp`
 - **Goal:** Calculate the total sum of all randomly generated integers in an array.
 - **Logic:** Initializes a `sum` accumulator to zero and iterates through the array, adding each element's value to the total.
@@ -69,7 +69,15 @@ The project is organized into modular `.cpp` files, each addressing a specific p
     - Input validation to ensure the length doesn't exceed `MAX_SIZE`.
 - **Technical Skills:** Arithmetic Operations, Accumulation Logic, and Loop Traversal.
 
-  ### 7. Basic Array Copy
+### 6. Array Elements Average
+- **File:** `Array-AverageCalculation.cpp`
+- **Goal:** Calculate the mathematical average of all randomly generated integers in an array.
+- **Logic:** Reuses the `SumArray()` function to get the total and then divides it by the array length.
+- **Advanced Features:** - **Type Casting:** Uses `static_cast<float>` to ensure precise floating-point division.
+    - **Modular Design:** Demonstrates function dependency (one function calling another).
+- **Technical Skills:** Precision Handling, Mathematical Logic, and Function Reusability.
+  
+### 7. Basic Array Copy
 - **File:** `Array-CopyBasic.cpp`
 - **Goal:** Copy all elements from a source array into a destination array.
 - **Logic:** Iterates through the source array and assigns each value to the corresponding index in the destination array.
@@ -77,7 +85,7 @@ The project is organized into modular `.cpp` files, each addressing a specific p
     - **Scalability:** Designed to handle up to `MAX_SIZE` elements efficiently.
 - **Technical Skills:** Array Assignment, Memory Safety, and Loop-based Data Transfer.
 
-  ### 8. Prime Numbers Filtering
+### 8. Prime Numbers Filtering
 - **File:** `Array-FilterPrimes.cpp`
 - **Goal:** Identify and copy only prime numbers from a source array into a destination array.
 - **Logic:** - Uses a `CheckPrime()` function with an optimized loop (`i * i <= n`).
@@ -104,7 +112,7 @@ The project is organized into modular `.cpp` files, each addressing a specific p
     - **Dynamic Interaction:** User defines the range, and the program handles the sequence generation and randomization.
 - **Technical Skills:** Fisher-Yates-like Logic, Reference Passing (`int&`), and Random Indexing.
 
-  ### 11. Array Reverse Copy (Pointer Based)
+### 11. Array Reverse Copy (Pointer Based)
 - **File:** `Array-ReverseCopy.cpp`
 - **Goal:** Copy elements from a source array into a destination array in reverse order.
 - **Logic:** - Uses **Pointer Arithmetic** (`int* p`) to traverse and fill the array.
@@ -113,7 +121,7 @@ The project is organized into modular `.cpp` files, each addressing a specific p
     - **Efficiency:** Optimized traversal for both filling and copying operations.
 - **Technical Skills:** Pointer Arithmetic, Array Reversal, and Memory Management.
 
-  ### 12. Random Key Generator & Array Storage
+### 12. Random Key Generator & Array Storage
 - **File:** `Array-KeyGenerator.cpp`
 - **Goal:** Create a professional-grade license key generator (Format: XXXX-XXXX-XXXX-XXXX) and store multiple keys in a string array.
 - **Logic:** - Uses an **Enumeration** (`enCharType`) to categorize character types (Letters, Digits, Specials).
