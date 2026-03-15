@@ -201,4 +201,4 @@ The project is organized into modular `.cpp` files, each addressing a specific p
 ---
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/YourUsername/Cpp-Array-Mastery.git](https://github.com/YourUsername/Cpp-Array-Mastery.git)
+   git clone https://github.com/rambeto/Cpp-Array-Mastery
